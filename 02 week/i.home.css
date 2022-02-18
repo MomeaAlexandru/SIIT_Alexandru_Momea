@@ -1,0 +1,30 @@
+.header {
+  padding: 10px;
+  text-align: center;
+  background: hsl(61, 76%, 42%);
+  color: white;
+  font-size: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: hsl(61, 76%, 42%);
+  color: white;
+  text-align: center;
+}
+img {
+  height: 500px;
+  width: 500px;;
+  margin-left: 25%;
+}
+.home {
+  display: flex;
+}
+p {
+  margin-left: 100px;
+  margin-right: 100px;
+}
