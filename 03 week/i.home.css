@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  line-height: 1.5;
+}
+.header {
+  padding: 10px;
+  text-align: center;
+  background: hsl(61, 76%, 42%);
+  color: white;
+  font-size: 10px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: hsl(61, 76%, 42%);
+  color: white;
+  text-align: center;
+}
+img {
+  display: block;
+  max-width: 100%;
+  width: 600px;
+  height: 400px;
+}
+.home {
+  width: 1200px;
+  max-width: 90%;
+  padding: 0 15px;
+  display: flex;
+  margin: 25px auto;
+  justify-content: center;
+}
+.home .item {
+  width: 50%;
+  margin: 0 15px;
+}
+#myBtn {
+  position: fixed;
+  bottom: 10px;
+  float: right;
+  right: 8.5%;
+  left: 87.25%;
+  max-width: 30px;
+  width: 100%;
+  font-size: 12px;
+  border-color: rgba(85, 85, 85, 0.2);
+  background-color: rgb(100, 100, 100);
+  padding: 0.5px;
+  border-radius: 4px;
+}
+/*On Hover Color Change*/
+#myBtn:hover {
+  background-color: #7dbbf1;
+}
+
+/* @media screen and (min-width: 768px) {
+  body {
+    background-color: blue;
+  }
+} */
