@@ -1,0 +1,25 @@
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#1abc9c;
+    color: white;
+    text-align: center;
+  }
+.align {
+margin-left: 40px;
+margin-top: 60px;
+}
+body {
+  background-color: rgb(255, 223, 80);
+}
