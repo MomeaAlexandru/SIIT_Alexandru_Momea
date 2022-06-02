@@ -1,0 +1,16 @@
+.Container {
+	margin-left: 1rem;
+	margin-right: 1rem;
+	width: 100%;
+}
+.Left {
+	text-align: left;
+}
+
+.Right {
+	text-align: right;
+}
+
+.Center {
+	text-align: center;
+}
